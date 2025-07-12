@@ -4,6 +4,7 @@ import { HeroSection } from "../../components/HeroSection";
 import { TrustedBySection } from "../../components/TrustedBySection";
 import { AboutSection } from "../../components/AboutSection";
 import { ServicesSection } from "../../components/ServicesSection";
+import { TestimonialsSection } from "../../components/TestimonialsSection";
 import { ContactSection } from "../../components/ContactSection";
 import { Footer } from "../../components/Footer";
 import { ScrollToTop } from "../../components/ScrollToTop";
@@ -27,6 +28,7 @@ export const Frame = (): JSX.Element => {
       <TrustedBySection />
       <AboutSection />
       <ServicesSection />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
       <ScrollToTop />
