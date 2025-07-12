@@ -3,7 +3,7 @@ import { Twitter, Linkedin, Instagram } from "lucide-react";
 
 export const Footer = (): JSX.Element => {
   return (
-    <footer className="bg-black/80 backdrop-blur-md py-16 relative border-t border-white/10">
+    <footer className="py-16 relative border-t border-white/10">
       <div className="container mx-auto px-8">
         {/* Main Footer Content */}
         <div className="text-center space-y-8 animate-slide-up">
