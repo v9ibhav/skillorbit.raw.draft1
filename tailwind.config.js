@@ -79,6 +79,7 @@ module.exports = {
         "glow": "glow 2s ease-in-out infinite alternate",
         "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "reverse": "reverse 1s linear infinite",
+        "scroll-left": "scrollLeft 30s linear infinite",
       },
       keyframes: {
         fadeIn: {
@@ -112,6 +113,10 @@ module.exports = {
         reverse: {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(-360deg)" },
+        },
+        scrollLeft: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
         },
       },
     },

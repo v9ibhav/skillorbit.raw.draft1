@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../../components/Header";
 import { HeroSection } from "../../components/HeroSection";
+import { TrustedBySection } from "../../components/TrustedBySection";
 import { AboutSection } from "../../components/AboutSection";
 import { ServicesSection } from "../../components/ServicesSection";
 import { ContactSection } from "../../components/ContactSection";
@@ -23,6 +24,7 @@ export const Frame = (): JSX.Element => {
       
       <Header />
       <HeroSection />
+      <TrustedBySection />
       <AboutSection />
       <ServicesSection />
       <ContactSection />
