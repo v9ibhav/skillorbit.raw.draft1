@@ -1,13 +1,10 @@
 import React from "react";
 
 export const TrustedBySection = (): JSX.Element => {
-  // Using placeholder logos - in a real implementation, you'd use actual logo images
   const trustedLogos = [
-    { name: "Deloitte", logo: "https://logos-world.net/wp-content/uploads/2020/06/Deloitte-Logo.png" },
-    { name: "EY", logo: "https://logos-world.net/wp-content/uploads/2020/06/EY-Logo.png" },
-    { name: "Government of India", logo: "https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" },
-    { name: "KPMG", logo: "https://logos-world.net/wp-content/uploads/2020/04/KPMG-Logo.png" },
-    { name: "The World Bank", logo: "https://logos-world.net/wp-content/uploads/2020/11/World-Bank-Logo.png" },
+    { name: "Deloitte", logo: "/deloitte.png" },
+    { name: "IIML", logo: "/iiml.png" },
+    { name: "KPMG", logo: "/kpmg.png" },
   ];
 
   return (
